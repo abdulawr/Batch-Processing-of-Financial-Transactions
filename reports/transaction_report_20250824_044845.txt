@@ -1,0 +1,41 @@
+FINANCIAL TRANSACTION PROCESSING REPORT
+======================================
+Report Generated: 2025-08-24 04:48:45
+Job Execution ID: 1
+Job Status: COMPLETED
+Start Time: 2025-08-24T04:48:45.241196300
+End Time: 2025-08-24T04:48:45.603601900
+Duration: 0s
+
+TRANSACTION SUMMARY
+==================
+Valid Transactions: 4
+Invalid Transactions: 0
+Fraudulent Transactions: 2
+Total Processed: 6
+Total Valid Amount: $5221.00
+
+STEP EXECUTION DETAILS
+=====================
+Step: processTransactionsStep
+  Read Count: 10
+  Write Count: 6
+  Skip Count: 4
+  Status: COMPLETED
+
+FRAUDULENT TRANSACTIONS DETAILS
+==============================
+Transaction ID: TXN004
+  Account: ACC001
+  Amount: $15000.00
+  Fraud Score: 0.7500000000000001
+  Merchant: ATM001
+  Timestamp: 2023-08-19T23:45
+
+Transaction ID: TXN009
+  Account: ACC007
+  Amount: $30000.00
+  Fraud Score: 0.7500000000000001
+  Merchant: UNKNOWN001
+  Timestamp: 2023-08-20T01:00
+
